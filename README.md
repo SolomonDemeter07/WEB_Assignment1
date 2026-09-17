@@ -13,5 +13,5 @@ This repository contains the completed tasks for Assignment #1 focusing on HTML 
 ## Instructions
 **How to view the project:**
 1. The easiest way is to open the live website via GitHub Pages:https://solomondemeter07.github.io/WEB_Assignment1/
-2. Alternatively, you can clone this repository to your local machine and open the `index.html` file in any modern web browser.
+2. Alternatively, you can clone this repository to your local machine and open the `index.html`.
 3. Use the top navigation bar to switch between the different tasks.
