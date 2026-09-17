@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Table & Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="task4-body">
+
+    <div class="task2-nav">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+        <a href="task5.html">Task 5</a>
+    </div>
+
+    <main class="task4-content">
+        <h2 id="table-heading">Student Grades 2026</h2>
+        
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Askhat Bekeshev</td>
+                    <td>Web Development</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Roboute Guilliman</td>
+                    <td>Logistics</td>
+                    <td>A</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Leman Russ</td>
+                    <td>Diplomacy</td>
+                    <td>F-</td>
+                </tr>
+                <tr>
+                    <td>Lion El'Jonson</td>
+                    <td>Tactics</td>
+                    <td>B+</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" class="merged-cell">Overall Group Average:</td>
+                    <td>B</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr class="divider">
+
+        <h2>Feedback Form</h2>
+        
+        <div class="form-container">
+            <form action="#">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="role">Your Role:</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="inquisitor">Inquisitor</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>Do you like this assignment?</label>
+                <div class="radio-group">
+                    <input type="radio" id="yes" name="like_task" value="yes">
+                    <label for="yes" class="radio-label">Yes</label>
+                    
+                    <input type="radio" id="no" name="like_task" value="no">
+                    <label for="no" class="radio-label">No</label>
+                </div>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Leave your feedback here..."></textarea>
+                <button type="submit" class="submit-btn">Send Feedback</button>
+
+            </form>
+        </div>
+
+    </main>
+
+</body>
+</html>
